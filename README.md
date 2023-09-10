@@ -1,6 +1,6 @@
 # how to make your own computercraft video!
 > [!NOTE]
-> your video will be black and white
+> your video will have 1-bit color! it might not look how you want or expect!
 1. go to https://github.com/Axisok/qtccv
 2. click `<> Code ▾`
 3. click `🗎 Download ZIP`
