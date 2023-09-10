@@ -44,9 +44,10 @@
       - if it still doesn't work, it could be an issue with computercraft memory (which you can change in the mod config) or your qtv file is simply too big to process
 
 ## optional improvements
-### higher resolution
-insert this at the top of `play[video].lua`
 ```lua
+-- higher monitor resolution
 local monitor = peripheral.find("monitor")
 monitor.setTextScale(0.5)
 ```
+> [!NOTE]
+> insert this at the top of `play[video].lua`
