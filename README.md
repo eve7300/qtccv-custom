@@ -11,7 +11,7 @@ be warned, videos will be black and white!
 > once python is installed, open cmd and type `pip install numpy` and then `pip install moviepy`
 4. extract the zip you downloaded wherever you want
 5. find a video you want to use
-> the file size needs to be pretty low, aspect ratio should be 7:4 (70 x 40) which you can change with a video editor, i've used shotcut as it's lightweight and efficient 
+> the file size needs to be pretty low, aspect ratio should be 7:4 (70 x 40) which you can change with a video editor, i recommend shotcut as it's lightweight and efficient 
 6. go into the unzipped folder
 7. go into the `encode` folder
 8. place your video in the `encode` folder
