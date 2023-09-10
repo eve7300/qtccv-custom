@@ -1,6 +1,6 @@
 # how to make your own computercraft video!
-> [!IMPORTANT]
-> videos will be black and white!
+> [!NOTE]
+> your video will be black and white
 1. go to https://github.com/Axisok/qtccv
 2. click `<> Code ▾`
 3. click `🗎 Download ZIP`
