@@ -17,7 +17,7 @@
 12. in powershell, type `py encoder.py -c quadtree -i <video file> -o <output file>.qtv` (MUST have .qtv)
     - this will not work if you didn't add python to path
       - you can do this after installation by opening the start menu and searching `edit environment variables` and clicking on `Edit environment variables for your account`
-      - once there, double click on the `Path` entry in the top. on the right, click `New` and then enter your python installation path (default is `%localappdata%\Programs\Python311`)
+      - once there, double click on the `Path` entry in the top section. on the right, click `New` and then enter your python installation path (default is `%localappdata%\Programs\Python311`)
       - you will also need to add the `Scripts` folder inside of the python folder (default is `%localappdata%\Programs\Python311\Scripts`)
 13. once the file finishes encoding, move it into the `sample` folder
     - if you want, you can delete `badapple.qtv`
