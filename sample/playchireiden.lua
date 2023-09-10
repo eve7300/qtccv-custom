@@ -1,6 +1,6 @@
 -- Program to download and play a touhou animation on loop.
 
-local monitor = peripheral.wrap("right")
+local monitor = peripheral.find("monitor")
 monitor.setTextScale(0.5)
 
 local function getFile(name, lname)
