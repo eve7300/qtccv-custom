@@ -2,6 +2,7 @@
 
 local monitor = peripheral.wrap("right")
 monitor.setTextScale(0.5)
+monitor.setBackgroundColor("black")
 
 local function getFile(name, lname)
 	local r = http.get("https://raw.githubusercontent.com/eve7300/qtccv-custom/master/" .. name, nil, true)
@@ -20,4 +21,6 @@ if (not fs.exists("chireiden.qtv")) then
 	
 end
 
-shell.run("videoplayer", "chireiden")
+for i = 1, 2 do
+	shell.run("videoplayer", "chireiden")
+end
