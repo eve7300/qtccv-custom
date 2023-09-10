@@ -20,9 +20,9 @@
       - once there, double click on the `Path` entry in the top. on the right, click `New` and then enter your python installation path (default is `%localappdata%\Programs\Python311`)
       - you will also need to add the `Scripts` folder inside of the python folder (default is `%localappdata%\Programs\Python311\Scripts`)
 13. once the file finishes encoding, move it into the `sample` folder
-    - if you want, you can delete `badapple.qtv`, but **SAVE** `playbadapple.lua`
-      > [!WARNING]
-      > do NOT delete `playbadapple.lua`! rename it to `play[video].lua` instead!
+    - if you want, you can delete `badapple.qtv`
+    > [!WARNING]
+    > do NOT delete `playbadapple.lua`! rename it to `play[video].lua` instead!
 14. now you're going to make a github repository. you can call it whatever you want, just make sure it's public
 15. upload the `decode` and `sample` folders to github
     - uploading to github will not work if the qtv file is over 25 MB due to github's restrictions
