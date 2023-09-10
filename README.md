@@ -1,11 +1,11 @@
 # how to make your own computercraft video!
 > [!NOTE]
 > your video will have 1-bit color! it might not look how you want or expect!
-1. go to https://github.com/Axisok/qtccv
+1. go to [Axisok/qtccv](https://github.com/Axisok/qtccv)
 2. click `<> Code ▾`
 3. click `🗎 Download ZIP`
 4. open cmd and type `pip install numpy` and then `pip install moviepy`
-   - if python is not installed, install python 3.11 (or any version of your choice, this tutorial just uses 3.11) from [here](https://python.org/downloads), making sure to enable "add python 3.11 to PATH" in the installer
+   - if python is not installed, install python 3.11 (or any version of your choice, this tutorial just uses 3.11) from [here](https://python.org/downloads), making sure to enable `Add Python 3.11 to PATH` in the installer
 5. extract the zip you downloaded wherever you want
 6. find a video you want to use
    - the file size needs to be pretty low, resolution should be relatively low, if it doesn't fit on a computercraft monitor you can change the max size in the config
