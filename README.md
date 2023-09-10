@@ -45,7 +45,7 @@
 
 ## optional improvements
 > [!NOTE]
-> insert this at the top of `play[video].lua`
+> insert this at the top of `play[video].lua`! you will also have to make a new pastebin if you already did so!
 ```lua
 -- higher monitor resolution
 local monitor = peripheral.find("monitor")
