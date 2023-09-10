@@ -1,6 +1,3 @@
-# how to play my example video!
-WIP
-
 # how to make your own computercraft video!
 be warned, videos will be black and white!
 1. go to https://github.com/Axisok/qtccv
