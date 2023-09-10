@@ -1,5 +1,8 @@
 -- Program to download and play a touhou animation on loop.
 
+local monitor = peripheral.wrap("right)
+monitor.setTextScale(0.5)
+
 local function getFile(name, lname)
 	local r = http.get("https://raw.githubusercontent.com/eve7300/qtccv-custom/master/" .. name, nil, true)
 	local f = fs.open(lname, "wb")
