@@ -1,7 +1,7 @@
 -- Program to download and play a touhou animation on loop.
 
 local function getFile(name, lname)
-	local r = http.get("https://raw.githubusercontent.com/eve7300/qtccv-custom/main/" .. name, nil, true)
+	local r = http.get("https://raw.githubusercontent.com/eve7300/qtccv-custom/master/" .. name, nil, true)
 	local f = fs.open(lname, "wb")
 	f.write(r.readAll())
 	f.close()
