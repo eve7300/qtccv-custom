@@ -1,4 +1,4 @@
--- Program to download and play bad apple on loop.
+-- Program to download and play a touhou animation on loop.
 
 local function getFile(name, lname)
 	local r = http.get("https://raw.githubusercontent.com/eve7300/qtccv-custom/master/" .. name, nil, true)
